@@ -1,32 +1,7 @@
-<!--
->Filename: PCB_Design_Guides.md
->Created Date: Monday, November 26th 2018, 3:22:25 pm
->Author: Aero
->Usage: 
->       
->       
->-----
->Last Modified: 
->Modified By: 
->----------------------------
->--->
->HISTORY:
->|Date|By|Comments
->| :---: | :---: | :---: |
->|2018-11-26|Aero|增加了一些基本的内容
->|2018-11-26|Aero|初始化
->
-
-
-
-
-
-
-
-
-
-
-
+---
+title: "PCB设计技巧"
+output: pdf_document
+---
 
 
 
