@@ -150,9 +150,16 @@ AWG（American wire gauge）美国线规，是一种区分导线直径的标准�
 |21|1.6/1.9|46|0.005/0.06|
 <!-- AWG规格信息 -->
 ### USB
+通用串行总线（英语：Universal Serial Bus，缩写：USB）是连接计算机系统与外部设备的一种串口总线标准，也是一种输入输出接口的技术规范。
+<img src="./figs/USB-Connetors.png" width = "1000"  align=center />
+USB设备是向下兼容的，比如一些老电脑的接口可能都是USB2.0-TypeA母座，也可以插入USB3.0的U盘使用，但实际上此时U盘运行是按照USB2.0的规范，传输速率亦是如此。
 #### USB2.0
-<!-- USB -->
+<img src="./figs/USB2.0-Defination.jpg" width = "500"  align=center />
+<img src="./figs/USB2.0.jpg" width = "1000"  align=center />
+<img src="./figs/USB2.0-MINI.jpg" width = "1000"  align=center />
+<img src="./figs/USB2.0-MINI-Defination.jpg" width = "500"  align=center />
 
+其中ID脚在OTG功能中才使用。由于Mini-USB接口分Mini-A、B和AB接口。如果你的系统仅仅是用做Slave，那么就使用B接口。 系统控制器会判断ID脚的电平判断是什么样的设备插入，如果是高电平，则是B接头插入，此时系统就做主模式(master mode) ；如果ID为低，则是A接口插入，然后系统就会使用HNP对话协议来决定哪个做Master，哪个做Slave。这些说明为技术人员总结的，仅供参考。
 ### HDMI
 <!-- HDMI -->
 ### 排针
