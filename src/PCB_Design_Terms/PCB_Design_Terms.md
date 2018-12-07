@@ -72,25 +72,30 @@ japon将引脚中心距小于0.65mm 的QFP 称为QFP(FP)。但现在japon电子�
 ### SMD(surface mount devices) 
 表面贴装器件。偶而，有的半导体厂家把SOP 归为SMD(见SOP)。 
 关于SMD,平时用的比较多的就是贴片电阻电容电感，比如0603、0402、0201等封装的贴片器件。平时购买元件时，0603、0402指的是两个引脚的器件，如果是多个引脚的，一般称之为0603、0402的排阻、排容
-![avatar](./figs/SMD.jpg)
+<img src="./figs/SMD.jpg" width = "300"  align=center />
 
 
 ### SOT(Small Outline Transistor)
 SOT是一种表面贴装的封装形式，一般引脚小于等于5个的小外形晶体管。
 ![avatar](./figs/SOT-23-5.jpg)
 ![avatar](./figs/SOT223.jpg)
+<img src="./figs/SOT-23-5.jpg" width = "300"  align=center />
+<img src="./figs/SOT233.jpg" width = "300"  align=center />
+
 
 
 ### SOD(Small Outline Diode)
-![avatar](./figs/SOD123.jpg)
+<img src="./figs/SOD123.jpg" width = "300"  align=center />
+
 
 ### SOP(Small Outline Package)
 SOP封装是一种元件封装形式，常见的封装材料有:塑料、陶瓷、玻璃、金属等，现在基本采用塑料封装.，应用范围很广，主要用在各种集成电路中。
-![avatar](./figs/SOP.jpg)
+<img src="./figs/SOP.jpg" width = "300"  align=center />
+
 
 ### SIP(single in-line package) 
 单列直插式封装。引脚从封装一个侧面引出，排列成一条直线。当装配到印刷基板上时 封 装呈侧立状。引脚中心距通常为2.54mm，引脚数从2 至23，多数为定制产品。封装的形 状各 异。也有的把形状与ZIP 相同的封装称为SIP。 
-![avatar](./figs/SIP.jpg)
+<img src="./figs/SIP.jpg" width = "300"  align=center />
 
 
 
@@ -100,17 +105,19 @@ SOP封装是一种元件封装形式，常见的封装材料有:塑料、陶瓷�
 线材指的就是平时我们使用的飞线、电源线、杜邦线之类，不同的线材粗细也有相应的标准，在设计时一定要考虑其功能特性，就比如，不能指望杜邦线那种特别细的线去承载40A的大电流，也不能让拇指那么粗的电线大材小用去传导普通的信号。
 ### FFC/FPC
 FFC指的是Flexible Flat Cable，平时所说FPC线和FFC指的是一个东西，而FPC指的是Flexible Printed Circuit board,柔性印刷电路板，通俗讲就是用软性材料（可以折叠、弯曲的材料）做成的PCB。
-![avatar](./figs/FPC-Board.jpg)
+<img src="./figs/FPC-Board.jpg" width = "300"  align=center />
+
 上图为FPC板
-![avatar](./figs/FPC-Wire.jpg)
+<img src="./figs/FPC-Wire.jpg" width = "300"  align=center />
+
 上图为FPC软排线（准确地说应该称之为FFC排线）
 FPC软排线的间距有各种规格，如0.5mm、0.8mm、1.0mm、1.25mm、1.27mm、1.5mm、2.0mm、2.54mm等。
-![avatar](./figs/FPC-Connector.jpg)
+<img src="./figs/FPC-Connector.jpg" width = "300"  align=center />
 上图为FPC连接器，间距规格与FPC排线规格类似。其以卡住排线的方式分为上/下接翻盖式、抽屉式、和无锁等几种；又以焊接方式分为直插、贴片，且两者又各自分为立式和卧式
-![avatar](./figs/FPC-sleep.jpg)
+<img src="./figs/FPC-sleep.jpg" width = "300"  align=center />
 上为卧式
 下为立式(实在找不到单独的图片了，板子最左侧的连接器即为立式FPC连接器)
-![avatar](./figs/FPC-stand.jpg)
+<img src="./figs/FPC-stand.jpg" width = "300"  align=center />
 ### 线材标号规格
 常用的是AWG规格。
 AWG（American wire gauge）美国线规，是一种区分导线直径的标准，又被称为 Brown & Sharpe线规。
